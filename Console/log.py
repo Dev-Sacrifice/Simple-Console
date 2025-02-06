@@ -25,7 +25,7 @@ class Logger:
 
     def __init__(
         self,
-        log_level: Levels = Levels.INFO,
+        log_level: Levels = Levels.DEBUG,
         log_file: str = None,
         show_timestamp: bool = True,
         show_brackets: bool = True,
